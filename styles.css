@@ -3,7 +3,7 @@
   }
   
   :root {
-    --cell-size: 100px;
+    --cell-size: 200px;
     /* X or O to be smaller than the cell itself */
     --mark-size: calc(var(--cell-size) * .9);
   }
@@ -26,7 +26,7 @@
   .cell {
     width: var(--cell-size);
     height: var(--cell-size);
-    border: 1px solid black;
+    border: 4px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
