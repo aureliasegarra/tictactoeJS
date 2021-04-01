@@ -20,6 +20,7 @@
 
   .subtitle {
     text-align: center;
+    margin-bottom: 0;
   }
 
   .board {
@@ -152,7 +153,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, .9);
+    background-color: rgba(0, 8, 50, 0.9);
     justify-content: center;
     align-items: center;
     color: white;
@@ -162,16 +163,16 @@
   
   .winning-message button {
     font-size: 3rem;
-    background-color: white;
-    border: 1px solid black;
+    color: #0037FF;
+    border-radius: 20px;
     padding: .25em .5em;
     cursor: pointer;
   }
   
   .winning-message button:hover {
-    background-color: black;
+    background-color: rgb(19, 10, 197);
     color: white;
-    border-color: white;
+    border-radius: 20px;
   }
   
   .winning-message.show {
