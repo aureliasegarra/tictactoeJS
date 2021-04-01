@@ -1,6 +1,6 @@
 #  :robot: My Tic Tac Toe game
 
-## Create an easy-to-use interface (UI/UX) by reproducing the famous tic-tac-toe game
+## Create an easy-to-use interface (UI/UX) by reproducing the famous tic-tac-toe game in Javascript Vanilla
 
 ## Illustration
 ![Illustrations](images/screenshot1.png)
