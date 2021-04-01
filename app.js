@@ -90,7 +90,7 @@ function isDraw() {
 // Check for draw and Game Over
 function endGame(draw) {
     if (draw) {
-
+        winningMessageTextElement.innerText = 'Draw!'
     } else {
         winningMessageTextElement.innerText = `${circleTurn ? "O's" : "X's"} wins 🥳`;
     }
